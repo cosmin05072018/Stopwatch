@@ -107,4 +107,7 @@ button:focus
         display: flex;
         flex-direction: column;
     }
+    h1, .container{
+        margin-left: 30px;
+    }
 }
