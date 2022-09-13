@@ -3,7 +3,7 @@ let tens = 00;
 let mins = 00;
 let getSeconds = document.querySelector('.seconds');
 let getTens = document.querySelector('.tens');
-let getMins = document.querySelector('.mins');
+let getMins = document.querySelector('.minutes');
 let btnStart = document.querySelector('.btn-start');
 let btnStop = document.querySelector('.btn-stop');
 let btnReset = document.querySelector('.btn-reset');
@@ -54,5 +54,6 @@ function startTimer(){
     }
 }
 
+    
 
 
