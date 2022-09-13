@@ -142,6 +142,6 @@ button:focus {
 
 /*2. for tablet */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     h1{color: red;}
   }
