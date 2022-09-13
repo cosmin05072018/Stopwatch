@@ -78,6 +78,9 @@ button:focus
 /* resposive */
 
 @media (max-width: 600px){
+    body{
+        overflow: hidden;
+    }
     h1{
         color: #ffffff;
         font-size: 48px;
@@ -88,7 +91,7 @@ button:focus
 
     .container {
         margin-top: 100px;
-        margin-left: 5px;
+        margin-left: 20px;
         width: 200px;
         height: 200px;
         border-radius: 50%;
