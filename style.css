@@ -111,6 +111,6 @@ button:focus
         margin-left: 22%;
     }
     .btn-start, .btn-reset, .btn-stop{
-        margin-top:20px;
+        margin-top:10px;
     }
 }
