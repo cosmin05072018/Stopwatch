@@ -26,10 +26,10 @@ h1{
 }
 
 .container {
-    margin-top: 100px;
-    margin-left: 550px;
-    width: 300px;
-    height: 300px;
+    margin-top: 40px;
+    margin-left: 460px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     background-color: #151538;
     padding: 40px;
@@ -52,11 +52,17 @@ h1{
     flex-direction: column;
     color: #ffffff;
     font-weight: 800;
-    font-size: 28px;
+    font-size: 48px;
+    margin-top: 50px;
 }
 
 .element2{
     margin-top: 200px;
+}
+
+.btn-start, .btn-reset, .btn-stop{
+    font-size: 48px;
+    font-weight: 900;
 }
 
 button{
@@ -110,7 +116,7 @@ button:focus
         flex-direction: column;
     }
     h1, .container{
-        margin-left: 50px;
+        margin-left: 48px;
     }
     .btn-start, .btn-reset, .btn-stop{
         margin-top:10px;
