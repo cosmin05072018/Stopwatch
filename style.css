@@ -102,30 +102,29 @@ button:focus
         width: 220px;
         height: 220px;
         border-radius: 50%;
-        background-color: #151538;
+        background-color: #15153885;
         padding: 40px;
         animation-name: shine;
         animation-duration: 3s;
         animation-iteration-count: infinite;
     }
 
+    .element1{
+        font-weight: 800;
+        font-size: 28px;
+    }
+
     .element2{
         margin-top: 15px;
         display: flex;
         flex-direction: column;
+        font-weight: 800;
+        font-size: 28px;
     }
     h1, .container{
         margin-left: 48px;
     }
     .btn-start, .btn-reset, .btn-stop{
         margin-top:10px;
-    }
-
-    .watch{
-        display: flex;
-        flex-direction: column;
-        color: #ffffff;
-        font-weight: 800;
-        font-size: 28px;
     }
 }
