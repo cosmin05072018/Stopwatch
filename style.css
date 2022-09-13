@@ -108,7 +108,7 @@ button:focus
         flex-direction: column;
     }
     h1, .container{
-        margin-left: 22%;
+        margin-left: 50px;
     }
     .btn-start, .btn-reset, .btn-stop{
         margin-top:10px;
