@@ -114,8 +114,7 @@ button:focus {
         animation-iteration-count: infinite;
     }
 
-    .element1 {
-        margin-top: 10px;
+    .element1 {margin-bottom: 50px;
         font-weight: 800;
         font-size: 28px;
     }
