@@ -120,4 +120,12 @@ button:focus
     .btn-start, .btn-reset, .btn-stop{
         margin-top:10px;
     }
+
+    .watch{
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 28px;
+    }
 }
