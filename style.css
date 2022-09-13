@@ -88,6 +88,8 @@ button:focus {
 
 /* resposive */
 
+/*1. for mobile */
+
 @media (max-width: 600px) {
     body {
         overflow: hidden;
@@ -137,3 +139,9 @@ button:focus {
         font-size: 12px;
     }
 }
+
+/*2. for tablet */
+
+@media (max-width: 767px) {
+    h1{color: red;}
+  }
