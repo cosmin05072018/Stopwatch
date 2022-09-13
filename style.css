@@ -123,8 +123,6 @@ button:focus {
         margin-top: 15px;
         display: flex;
         flex-direction: column;
-        font-weight: 800;
-        font-size: 28px;
     }
 
     h1,
