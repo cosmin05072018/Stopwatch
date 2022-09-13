@@ -15,7 +15,7 @@ body {
     background-size: cover;
 }
 
-h1{
+h1 {
     text-align: center;
     margin-top: 20px;
     margin-right: 55px;
@@ -37,16 +37,19 @@ h1{
     animation-iteration-count: infinite;
 }
 
-@keyframes shine{
-    0%,100%{
+@keyframes shine {
+
+    0%,
+    100% {
         box-shadow: -88px 0px 62px -12px rgba(246, 172, 0, 0.5);
     }
-    50%{
+
+    50% {
         box-shadow: 88px 0px 62px 3px rgba(246, 164, 0, 0.5);
     }
 }
 
-.watch{
+.watch {
     display: flex;
     flex-direction: column;
     color: #ffffff;
@@ -55,16 +58,18 @@ h1{
     margin-top: 50px;
 }
 
-.element2{
+.element2 {
     margin-top: 200px;
 }
 
-.btn-start, .btn-reset, .btn-stop{
+.btn-start,
+.btn-reset,
+.btn-stop {
     font-size: 48px;
     font-weight: 900;
 }
 
-button{
+button {
     background-color: #222242;
     padding: 10px 18px;
     border: 1px solid #A9A9A9;
@@ -75,8 +80,7 @@ button{
 }
 
 button:hover,
-button:focus
-{
+button:focus {
     border-color: #F6B400;
     color: #F6B400;
     box-shadow: 0px 4px 27px -12px #F6B400;
@@ -84,11 +88,12 @@ button:focus
 
 /* resposive */
 
-@media (max-width: 600px){
-    body{
+@media (max-width: 600px) {
+    body {
         overflow: hidden;
     }
-    h1{
+
+    h1 {
         color: #ffffff;
         font-size: 48px;
         font-weight: 800;
@@ -109,22 +114,29 @@ button:focus
         animation-iteration-count: infinite;
     }
 
-    .element1{
+    .element1 {
         font-weight: 800;
         font-size: 28px;
     }
 
-    .element2{
+    .element2 {
         margin-top: 15px;
         display: flex;
         flex-direction: column;
         font-weight: 800;
         font-size: 28px;
     }
-    h1, .container{
+
+    h1,
+    .container {
         margin-left: 48px;
     }
-    .btn-start, .btn-reset, .btn-stop{
-        margin-top:10px;
+
+    .btn-start,
+    .btn-reset,
+    .btn-stop {
+        margin-top: 10px;
+        font-weight: 800;
+        font-size: 28px;
     }
 }
