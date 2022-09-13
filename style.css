@@ -68,7 +68,7 @@ button:focus
 
 /* resposive */
 
-@media (max-width: 320px){
+@media (max-width: 375px){
     h1{
         color: #ffffff;
         font-size: 48px;
