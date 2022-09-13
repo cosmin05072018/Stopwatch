@@ -103,7 +103,7 @@ button:focus {
 
     .container {
         margin-top: 100px;
-        margin-left: 22px;
+        margin-left: 27px;
         width: 250px;
         height: 250px;
         border-radius: 50%;
@@ -126,7 +126,7 @@ button:focus {
     }
 
     h1{
-        margin-left: 33px;
+        text-align: center;
     }
 
     .btn-start,
